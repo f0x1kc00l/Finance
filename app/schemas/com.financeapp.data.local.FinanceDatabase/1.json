@@ -1,0 +1,40 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "6f1a6bd2a3c9e0b4d1f0c8e7a5b3d2c1",
+    "entities": [
+      {
+        "tableName": "expenses",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `amount` REAL NOT NULL, `category` TEXT NOT NULL, `note` TEXT NOT NULL, `paymentMethod` TEXT NOT NULL, `timestamp` INTEGER NOT NULL)",
+        "fields": [
+          { "fieldPath": "id", "columnName": "id", "affinity": "INTEGER", "notNull": true },
+          { "fieldPath": "amount", "columnName": "amount", "affinity": "REAL", "notNull": true },
+          { "fieldPath": "category", "columnName": "category", "affinity": "TEXT", "notNull": true },
+          { "fieldPath": "note", "columnName": "note", "affinity": "TEXT", "notNull": true },
+          { "fieldPath": "paymentMethod", "columnName": "paymentMethod", "affinity": "TEXT", "notNull": true },
+          { "fieldPath": "timestamp", "columnName": "timestamp", "affinity": "INTEGER", "notNull": true }
+        ],
+        "primaryKey": { "autoGenerate": true, "columnNames": ["id"] },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "budgets",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER NOT NULL, `monthlyLimit` REAL NOT NULL, PRIMARY KEY(`id`))",
+        "fields": [
+          { "fieldPath": "id", "columnName": "id", "affinity": "INTEGER", "notNull": true },
+          { "fieldPath": "monthlyLimit", "columnName": "monthlyLimit", "affinity": "REAL", "notNull": true }
+        ],
+        "primaryKey": { "autoGenerate": false, "columnNames": ["id"] },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '6f1a6bd2a3c9e0b4d1f0c8e7a5b3d2c1')"
+    ]
+  }
+}

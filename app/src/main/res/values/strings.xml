@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FinanceApp</string>
+
+    <!-- Common -->
+    <string name="action_back">Назад</string>
+    <string name="action_save">Сохранить</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_undo">Отменить</string>
+    <string name="action_retry">Повторить</string>
+    <string name="action_close">Закрыть</string>
+    <string name="action_continue">Продолжить</string>
+    <string name="action_apply">Применить</string>
+    <string name="action_reset">Сбросить</string>
+    <string name="action_search">Поиск</string>
+    <string name="action_clear_search">Очистить поиск</string>
+    <string name="action_analytics">Аналитика</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_add_expense">Добавить трату</string>
+    <string name="action_skip">Пропустить</string>
+    <string name="action_next">Далее</string>
+    <string name="action_start">Начать</string>
+    <string name="action_open_settings">Открыть настройки</string>
+    <string name="error_generic">Что-то пошло не так. Попробуйте ещё раз.</string>
+    <string name="error_load">Не удалось загрузить данные</string>
+    <string name="loading">Загрузка…</string>
+
+    <!-- Categories -->
+    <string name="category_food">Продукты</string>
+    <string name="category_fastfood">Фастфуд</string>
+    <string name="category_transport">Транспорт</string>
+    <string name="category_utilities">ЖКХ</string>
+    <string name="category_subscriptions">Подписки</string>
+    <string name="category_entertainment">Развлечения</string>
+    <string name="category_health">Здоровье</string>
+    <string name="category_clothing">Одежда</string>
+    <string name="category_beauty">Красота</string>
+    <string name="category_transfers">Переводы</string>
+    <string name="category_other">Другое</string>
+
+    <!-- Payment methods -->
+    <string name="method_card">Карта</string>
+    <string name="method_cash">Наличные</string>
+    <string name="method_nfc">Телефон (NFC)</string>
+    <string name="method_transfer">Перевод</string>
+
+    <!-- Currencies -->
+    <string name="currency_amd">Армянский драм</string>
+    <string name="currency_rub">Российский рубль</string>
+    <string name="currency_usd">Доллар США</string>
+    <string name="currency_eur">Евро</string>
+
+    <!-- Periods -->
+    <string name="period_day">День</string>
+    <string name="period_week">Неделя</string>
+    <string name="period_month">Месяц</string>
+    <string name="period_year">Год</string>
+    <string name="period_custom">Период</string>
+
+    <!-- Home -->
+    <string name="home_title">Мои финансы</string>
+    <string name="home_spent_this_month">Расходы за %1$s</string>
+    <string name="home_vs_last_month">к тем же дням прошлого месяца</string>
+    <string name="home_no_comparison">Нет данных за прошлый месяц для сравнения</string>
+    <string name="home_budget_left">Осталось %1$s из %2$s</string>
+    <string name="home_budget_over">Перерасход %1$s · лимит %2$s</string>
+    <string name="home_budget_allowance">≈ %1$s в день до конца месяца</string>
+    <string name="home_budget_used">Использовано %1$d%%</string>
+    <string name="home_set_budget">Задать бюджет на месяц</string>
+    <string name="home_avg_per_day">В среднем в день</string>
+    <string name="home_largest">Крупнейшая трата</string>
+    <string name="home_top_category">Больше всего</string>
+    <string name="home_categories">Категории за месяц</string>
+    <string name="home_recent">Последние операции</string>
+    <string name="home_see_all">Аналитика</string>
+    <string name="home_empty_title">Пока нет расходов</string>
+    <string name="home_empty_body">Добавьте первую трату — это займёт пару секунд.</string>
+    <string name="home_search_hint">Поиск по заметке или категории</string>
+    <string name="home_search_empty">Ничего не найдено</string>
+    <string name="home_search_results">Результаты поиска</string>
+    <string name="home_deleted">Трата удалена</string>
+    <string name="home_saved">Трата сохранена</string>
+    <string name="home_updated">Изменения сохранены</string>
+    <string name="home_delete_failed">Не удалось удалить</string>
+    <string name="home_swipe_delete_hint">Удалить</string>
+
+    <!-- Change indicator (text, so meaning never relies on colour alone) -->
+    <string name="change_up">▲ %1$d%%</string>
+    <string name="change_down">▼ %1$d%%</string>
+    <string name="change_same">без изменений</string>
+    <string name="change_up_a11y">на %1$d%% больше</string>
+    <string name="change_down_a11y">на %1$d%% меньше</string>
+
+    <!-- Add / edit -->
+    <string name="add_title">Новая трата</string>
+    <string name="edit_title">Изменить трату</string>
+    <string name="add_amount_label">Сумма</string>
+    <string name="add_category">Категория</string>
+    <string name="add_method">Способ оплаты</string>
+    <string name="add_date">Дата</string>
+    <string name="add_today">Сегодня</string>
+    <string name="add_note_hint">Заметка (необязательно)</string>
+    <string name="add_note_counter">%1$d/%2$d</string>
+    <string name="add_error_amount">Введите сумму больше нуля</string>
+    <string name="add_error_category">Выберите категорию</string>
+    <string name="add_error_save">Не удалось сохранить. Попробуйте ещё раз.</string>
+    <string name="add_error_missing">Эта трата уже удалена</string>
+    <string name="add_from_bank">Из уведомления %1$s</string>
+    <string name="add_delete_title">Удалить трату?</string>
+    <string name="add_delete_body">Трата будет удалена без возможности восстановления.</string>
+    <string name="add_keypad_decimal">Десятичный разделитель</string>
+    <string name="add_keypad_backspace">Стереть</string>
+    <string name="add_amount_a11y">Сумма: %1$s</string>
+    <string name="add_currency_mismatch">Сумма в уведомлении указана в %1$s, а в приложении выбрана валюта %2$s. Проверьте сумму перед сохранением.</string>
+
+    <!-- Analytics -->
+    <string name="analytics_title">Аналитика</string>
+    <string name="analytics_total">Всего потрачено</string>
+    <string name="analytics_vs_previous">к предыдущему периоду</string>
+    <string name="analytics_avg">В среднем в день: %1$s</string>
+    <string name="analytics_by_category">По категориям</string>
+    <string name="analytics_trend_daily">По дням</string>
+    <string name="analytics_trend_monthly">По месяцам</string>
+    <string name="analytics_empty_title">Нет трат за этот период</string>
+    <string name="analytics_empty_body">Выберите другой период или добавьте расходы.</string>
+    <string name="analytics_pick_range">Выбрать период</string>
+    <string name="analytics_range_title">Период</string>
+    <string name="analytics_chart_a11y">График расходов: всего %1$s, максимум %2$s (%3$s)</string>
+    <string name="analytics_category_row_a11y">%1$s: %2$s, %3$d%%</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_currency">Валюта</string>
+    <string name="settings_currency_note">Меняется только обозначение. Суммы не пересчитываются по курсу.</string>
+    <string name="settings_budget">Бюджет на месяц</string>
+    <string name="settings_budget_hint">Лимит, %1$s</string>
+    <string name="settings_budget_saved">Бюджет сохранён</string>
+    <string name="settings_budget_removed">Бюджет удалён</string>
+    <string name="settings_budget_invalid">Введите сумму больше нуля</string>
+    <string name="settings_budget_remove">Убрать бюджет</string>
+    <string name="settings_security">Безопасность</string>
+    <string name="settings_lock">Блокировка приложения</string>
+    <string name="settings_lock_desc">PIN-код при входе и после возврата в приложение</string>
+    <string name="settings_lock_legacy">Сейчас используется блокировка экрана устройства. Задайте PIN приложения.</string>
+    <string name="settings_set_pin">Задать PIN приложения</string>
+    <string name="settings_change_pin">Сменить PIN</string>
+    <string name="settings_biometric">Вход по биометрии</string>
+    <string name="settings_biometric_desc">Отпечаток или лицо (класс «надёжная»). PIN остаётся запасным способом.</string>
+    <string name="settings_biometric_unavailable">На устройстве нет надёжной биометрии</string>
+    <string name="settings_biometric_enable_title">Подтвердите биометрию</string>
+    <string name="settings_auto_lock">Автоблокировка</string>
+    <string name="settings_auto_lock_immediately">Сразу</string>
+    <string name="settings_auto_lock_seconds">Через %1$d сек</string>
+    <string name="settings_auto_lock_minutes">Через %1$d мин</string>
+    <string name="settings_hide_recents">Скрывать в списке недавних</string>
+    <string name="settings_hide_recents_desc">Содержимое не видно в переключателе приложений. На Android 12 и ниже также запрещает скриншоты.</string>
+    <string name="settings_detection">Автозапись после оплаты</string>
+    <string name="settings_detection_desc">Приложение читает уведомления только от банковских приложений из списка ниже, распознаёт сумму списания и предлагает записать трату. Текст уведомлений не сохраняется и никуда не отправляется.</string>
+    <string name="settings_detection_banks">Поддерживаются: %1$s. Форматы уведомлений проверены только на примерах, реальные уведомления банков могут отличаться.</string>
+    <string name="settings_detection_access_on">Доступ к уведомлениям разрешён</string>
+    <string name="settings_detection_access_off">Нет доступа к уведомлениям</string>
+    <string name="settings_detection_post_off">Показ уведомлений приложения запрещён — подсказки «Записать трату?» не появятся</string>
+    <string name="settings_detection_allow_post">Разрешить уведомления</string>
+    <string name="settings_detection_configure">Настроить доступ</string>
+    <string name="settings_export">Экспорт данных</string>
+    <string name="settings_export_desc">CSV-файл со всеми тратами: дата, категория, сумма, валюта, способ оплаты, заметка.</string>
+    <string name="settings_export_save">Сохранить файл</string>
+    <string name="settings_export_share">Поделиться</string>
+    <string name="settings_export_done">Экспортировано записей: %1$d</string>
+    <string name="settings_export_empty">Нет данных для экспорта</string>
+    <string name="settings_export_failed">Не удалось экспортировать</string>
+    <string name="settings_export_share_title">Экспорт трат</string>
+    <string name="settings_privacy">Конфиденциальность</string>
+    <string name="settings_privacy_local">Все данные хранятся только на этом устройстве, приложение не отправляет их на серверы.</string>
+    <string name="settings_privacy_backup">Данные исключены из облачного резервного копирования и переноса на новое устройство.</string>
+    <string name="settings_privacy_pin">PIN хранится только в виде хеша, привязанного к защищённому хранилищу ключей Android.</string>
+    <string name="settings_privacy_db">База трат защищена изоляцией приложения и шифрованием устройства Android, но не шифруется отдельно.</string>
+    <string name="settings_about">О приложении</string>
+    <string name="settings_version">Версия %1$s</string>
+
+    <!-- CSV header -->
+    <string name="csv_date">Дата</string>
+    <string name="csv_category">Категория</string>
+    <string name="csv_amount">Сумма</string>
+    <string name="csv_currency">Валюта</string>
+    <string name="csv_method">Способ оплаты</string>
+    <string name="csv_note">Заметка</string>
+
+    <!-- Lock / PIN -->
+    <string name="lock_title">Введите PIN</string>
+    <string name="lock_subtitle">Для входа в FinanceApp</string>
+    <string name="lock_wrong_pin">Неверный PIN. Осталось попыток: %1$d</string>
+    <string name="lock_wrong_pin_last">Неверный PIN. Следующая ошибка заблокирует ввод</string>
+    <string name="lock_locked_out">Слишком много попыток</string>
+    <string name="lock_retry_in">Повторите через %1$s</string>
+    <string name="lock_use_biometric">Войти по биометрии</string>
+    <string name="lock_biometric_reset">Биометрия на устройстве изменилась. Войдите по PIN и включите её заново в настройках.</string>
+    <string name="lock_forgot">Забыли PIN?</string>
+    <string name="lock_forgot_title">Сброс PIN</string>
+    <string name="lock_forgot_body">Подтвердите личность блокировкой экрана устройства. После этого можно будет задать новый PIN. Траты не удаляются.</string>
+    <string name="lock_forgot_confirm">Подтвердить личность</string>
+    <string name="lock_forgot_no_device_lock">На устройстве не настроена блокировка экрана, поэтому подтвердить личность нельзя. Остаётся только удалить все данные приложения.</string>
+    <string name="lock_erase_all">Удалить все данные</string>
+    <string name="lock_erase_confirm_title">Удалить все данные?</string>
+    <string name="lock_erase_confirm_body">Все траты, бюджет и настройки будут безвозвратно удалены.</string>
+    <string name="lock_device_title">Приложение заблокировано</string>
+    <string name="lock_device_body">Подтвердите личность блокировкой экрана устройства.</string>
+    <string name="lock_device_unlock">Разблокировать</string>
+    <string name="lock_device_unavailable">Блокировка экрана устройства не настроена. Блокировка приложения будет отключена — задайте PIN приложения в настройках.</string>
+    <string name="lock_reset_done">PIN сброшен. Задайте новый PIN.</string>
+    <string name="biometric_prompt_title">Вход в FinanceApp</string>
+    <string name="biometric_prompt_subtitle">Подтвердите отпечатком или лицом</string>
+    <string name="biometric_prompt_use_pin">Ввести PIN</string>
+    <string name="device_credential_reset_title">Подтвердите личность для сброса PIN</string>
+    <string name="device_credential_unlock_title">Разблокировать FinanceApp</string>
+
+    <string name="pin_create_title">Придумайте PIN</string>
+    <string name="pin_create_subtitle">4 цифры. Простые комбинации вроде 1234 или 0000 не подойдут.</string>
+    <string name="pin_confirm_title">Повторите PIN</string>
+    <string name="pin_confirm_subtitle">Введите тот же PIN ещё раз</string>
+    <string name="pin_current_title">Текущий PIN</string>
+    <string name="pin_current_subtitle_change">Введите текущий PIN, чтобы сменить его</string>
+    <string name="pin_current_subtitle_disable">Введите PIN, чтобы отключить блокировку</string>
+    <string name="pin_mismatch">PIN не совпадает. Попробуйте ещё раз</string>
+    <string name="pin_too_weak">Слишком простой PIN. Выберите другой</string>
+    <string name="pin_saved">PIN сохранён</string>
+    <string name="pin_digit">Цифра %1$d</string>
+    <string name="pin_delete">Стереть цифру</string>
+    <string name="pin_progress_a11y">Введено цифр: %1$d из %2$d</string>
+    <string name="security_warning_title">Устройство может быть небезопасным</string>
+    <string name="security_warning_body">Обнаружены признаки root-доступа или эмулятора. На таком устройстве другие приложения могут получить доступ к вашим данным.</string>
+    <string name="security_warning_ok">Понятно</string>
+
+    <!-- Onboarding -->
+    <string name="onb_1_title">Записывайте траты\nза пару секунд</string>
+    <string name="onb_1_body">Сумма, категория — готово. Без лишних полей и регистрации.</string>
+    <string name="onb_2_title">Подсказка после оплаты</string>
+    <string name="onb_2_body">Если разрешить доступ к уведомлениям банка, после покупки появится «Записать трату?». Ничего не сохраняется без вашего подтверждения.</string>
+    <string name="onb_3_title">Понятная аналитика</string>
+    <string name="onb_3_body">Категории, динамика и бюджет. Данные хранятся только на вашем телефоне.</string>
+
+    <!-- Notification detection -->
+    <string name="notification_listener_label">Детектор платежей</string>
+    <string name="channel_payment_name">Обнаруженные платежи</string>
+    <string name="channel_payment_description">Предложение записать трату после оплаты в банковском приложении</string>
+    <string name="detected_title">%1$s: %2$s</string>
+    <string name="detected_text">Нажмите, чтобы записать трату</string>
+    <string name="detected_public_title">Обнаружена оплата</string>
+
+    <!-- Quick add -->
+    <string name="quick_title">Записать трату?</string>
+    <string name="quick_where">Выберите категорию</string>
+    <string name="quick_more">Подробнее</string>
+    <string name="quick_saved">Сохранено</string>
+    <string name="quick_duplicate">Эта оплата уже записана</string>
+    <string name="quick_invalid">Не удалось распознать сумму</string>
+    <string name="quick_error">Не удалось сохранить</string>
+    <string name="quick_currency_mismatch">Уведомление в %1$s, а в приложении выбрана %2$s. Откройте «Подробнее», чтобы проверить сумму.</string>
+</resources>

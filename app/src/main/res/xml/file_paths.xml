@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Only the private export directory is shareable (v1.0 exposed all of external storage "."). -->
+<paths>
+    <cache-path name="exports" path="exports/" />
+</paths>
